@@ -1,0 +1,102 @@
+title:”kibana” port:”443"
+”230 login successful” port:”21"
+vsftpd 2.3.4 port:21
+230 ‘anonymous@’ login ok
+set-cookie: webvpn;
+Siemens S7
+vsftpd 3.0.3
+Set-Cookie: phpMyAdmin
+Set-Cookie: lang=
+Set-Cookie: PHPSESSID
+Set-Cookie: webvpn
+Set-Cookie:webvpnlogin=1
+Set-Cookie:webvpnLang=enHow to do this appropriately
+Set-Cookie: mongo-express=
+Set-Cookie: user_id=
+Set-Cookie: phpMyAdmin=
+Set-Cookie: _gitlab_session
+X-elastic-product: Elasticsearch
+x-drupal-cache
+access-control-allow-origin
+WWW-Authenticate
+X-Magento-Cache-Debug
+kbn-name: kibana
+X-App-Name: kibana
+x-jenkins
+org:’company’ port:’80, 81, 443, 8000, 8001, 8008, 8080, 8083, 8443, 8834, 8888'.
+site:target.com
+inurl:admin
+intitle:login
+site:website.com
+intitle:/admin
+site:website.com
+inurl:admin
+intitle:admin
+intext:admin
+kibana content-length:217 net:cidr
+html:Dashboard Jenkins http.component:jenkins
+X-Amz-Bucket-Region
+x-jenkins 200
+X-Generator: Drupal 7
+all:mongodb server information all:metrics
+port:27017 -all:partially all:fs.files
+port:9200" all:elastic indices
+product:elastic port:9200
+title:system dashboard html:jira
+product: apache tomcat
+html:secret_key_base
+html:rack.version
+title:Citrix Gateway org:*programorg*
+authentication disabled RFB 003.008
+html:/dana-na/
+Docker Containers: port:2375
+root@ port:23 -login -password -name -Session
+Cisco IOS ADVIPSERVICESK9_LI-M
+Server: NessusWWW
+230 login successful port:21"
+product:docker port:2375
+hostname:"example.com" http.title:"index of /"
+hostname:"example.com" http.html:"password"
+hostname:"example.com" http.html:"admin"
+hostname:"example.com" http.html:"login"
+hostname:"example.com" http.html:"user"
+hostname:"example.com" http.html:"email"
+hostname:"example.com" http.html:"ssn"
+hostname:"example.com" http.html:"address"
+hostname:"example.com" http.html:"phone"
+hostname:"example.com" http.html:"invoice"
+http.title:"webcamXP"
+port:21 anonymous
+os:"Windows 7" port:3389
+product:"MongoDB" port:27017
+http.title:"Admin Login"
+port:22 country:"IN"
+product:"OpenSSH"
+product:"Apache httpd" ssl:"expired" country:"US"
+http.html:"Atlassian Confluence" port:8090
+port:502 name:"modbus"
+title:grafana hostname:target
+"Sec-WebSocket-Protocol"
+http.component:"websocket"
+"HTTP/1.1 101 Switching Protocols"
+http.html:"socket.io"
+http.html:"socket.io" hostname:"api"
+http.html:"admin setup"
+http.html:"create admin"
+http.html:"Set up database" http.html:"Drupal"
+http.title:"Select an installation profile"
+http.html:"Convert and Upload"
+http.html:"Enter URL"
+http.title:"Ganglia"
+http.html:"Browse" http.html:"No file selected" http.html:"Upload file"
+http.html:"POST" http.html:"No file selected"
+http.html:"Submit" http.html:"No file selected"
+http.html:"Send" http.html:"No file selected"
+http.html:"No file selected" hostname:domain.com
+http.html:"Choose File" hostname:domain.com
+http.html:"Choose a file" hostname:domain.com
+http.html:"No file chosen" hostname:domain.com
+http.title:"Kibana" -http.title:"Login"
+http.title:"Elastic Kibana" -http.title:"Login"
+http.title:"Elastic" -http.title:"Login"
+http.title:"Protected Object"
