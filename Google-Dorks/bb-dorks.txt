@@ -1,0 +1,1 @@
+site:site.com inurl:api | site:*/rest | site:*/v1 | site:*/v2 | site:*/v3
